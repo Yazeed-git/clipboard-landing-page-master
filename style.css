@@ -353,6 +353,9 @@ footer .container{
     .cta-section p{
         padding: 0 22em;
     }
+     .clipboard-img{
+        width: 70%;
+    }
 }
 
 
