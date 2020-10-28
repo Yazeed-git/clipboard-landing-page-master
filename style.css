@@ -41,6 +41,16 @@ body{
 .logo{
     width: 100px;
 }
+.social-icons li a i{
+    color: var(--Grayish-Blue);
+}
+.footer-links li a:hover{
+    color: var(--Strong-Cyan);
+}
+.social-icons li a i:hover{
+    color: var(--Strong-Cyan);  
+    cursor: pointer;
+}
 
 
 /* fonts */
@@ -240,6 +250,12 @@ footer .container{
     .ios-btn{
         margin: 0 1em 0 0;
     }
+    .ios-btn:hover{
+        background-color: hsl(171, 36%, 57%);
+    }
+    .mac-btn:hover{
+        background-color: hsl(233, 96%, 73%);;
+    }
     .snippet-section{
         padding: 3em 0;
         overflow: hidden;
@@ -308,9 +324,12 @@ footer .container{
     .footer-links li{
         margin: 0 0 .5em 2em
     }
+
     .social-icons{
         gap: 1em;
     }
+
+    
     
 }
 
@@ -318,7 +337,21 @@ footer .container{
 @media screen and (min-width: 1200px){
     body{
         max-width: 1440px;
-        font-size:20px;
+    }
+    .hero-content p{
+        padding: 0 25em;
+    }
+    .snippet-section > p{
+        padding: 0 25em; 
+    }
+    .snippet-desc p{
+        padding-right: 10em;
+    }
+    .clipboard-section p{
+        padding: 0 23em;
+    }
+    .cta-section p{
+        padding: 0 22em;
     }
 }
 
